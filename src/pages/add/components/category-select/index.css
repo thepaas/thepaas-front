@@ -1,0 +1,68 @@
+.govt-select-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: 'League Spartan', sans-serif;
+  width: 100%;
+}
+
+.govt-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: 2px solid #b2bdbf;
+  background: #fbfbfb;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.govt-text {
+  font-size: 30px;
+  color: black;
+}
+
+.govt-icon {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  color: #999;
+  font-size: 1rem;
+}
+
+.govt-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #b2bdbf;
+  border-radius: 0.5rem;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.govt-option {
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.govt-option:hover {
+  background: #f0f0f0;
+}

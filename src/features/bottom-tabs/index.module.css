@@ -1,0 +1,28 @@
+.container {
+  margin-top: auto;
+}
+
+.iconsContainer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 0 12px 0;
+}
+
+.divider {
+  height: 1.5px;
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.icon {
+  height: 61px;
+  max-width: 61px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.icon.plus {
+  transform: scale(1.25);
+  transform-origin: center center;
+}

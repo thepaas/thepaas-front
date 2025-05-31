@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@assets/*": ["./assets/*"],
+      "@features": ["./features/index"],
+      "@configs": ["./configs/index"],
+      "@pages/*": ["./pages/*"],
+      "@components": ["./components/index"],
+      "@services/*": ["./services/*"],
+      "@enums/*": ["./enums/*"],
+      "@hooks/*": ["./hooks/*"]
+    }
+  }
+}
